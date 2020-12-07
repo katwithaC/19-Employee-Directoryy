@@ -1,7 +1,7 @@
 impot React from "react";
 
-function Row(props) {
+function Header(props) {
 
 }
 
-export default Row;
+export default Header;
