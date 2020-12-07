@@ -9,8 +9,14 @@ import Table from "./components/Table";
 function App() {
     return (
         <Router>
-  </Router>
-    )
+        <div>
+        <Header />
+        <Search />
+        <Row />
+        <Table />
+        </div>
+        </Router>
+    );
 }
 
 export default App;
