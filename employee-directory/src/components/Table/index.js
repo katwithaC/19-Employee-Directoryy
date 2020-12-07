@@ -1,1 +1,7 @@
-//adding index.js
+impot React from "react";
+
+function Table(props) {
+
+}
+
+export default Table;
