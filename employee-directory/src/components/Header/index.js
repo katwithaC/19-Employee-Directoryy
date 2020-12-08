@@ -1,17 +1,24 @@
 import React from "react";
-import { Link } from "react-router-dom";
+
 import "./style.css";
 
 function Header(props) {
     return (
         <div className = "navbar">
-        <div>
-        <h1 className= "h1">Employee Directory</h1>
-        <small className = "small">Click on carrots to filter by heading or use the search box to narrow your search results.</small>
-        </div>
+    
+        <div id= "navbartitle">
+        <h1>Employee Directory</h1>
         </div>
         
-    )
+        <br />
+        <br />
+        <br />
+        <div id = "navbarptag"> 
+        <p>Click on carrots to filter by heading or use the search box to narrow your search results.
+        </p>
+        </div>
+        </div>
+    );
 }
 
 export default Header;

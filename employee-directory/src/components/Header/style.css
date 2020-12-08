@@ -2,10 +2,13 @@ body {
     margin: 0;
 }
 
-.navbar {
-    background-color: rgb(33, 33, 126);
+.navbar  {
+    background-color: rgb(31, 31, 122);
     color: white;
+}
+
+#navbartitle, #navbarptag {
+    float: left;
+    width: 100%;
     text-align: center;
-    justify-content: center;
-    align-items: center;
 }
